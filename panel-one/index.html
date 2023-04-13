@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nintendo Official Site: Consoles, Games, News, and More</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  </head>
+   <!--Think: MOBILE FIRST-->
+  <body>
+    <!--Header/Logo + laptop nav bar-->
+    <header class="container-fluid fixed-top w-100 ninred-bg">
+      <div class="row">
+        <a class="col-sm-2" href=""><img class="logo" src="assets/img/logo.png" alt="Nintendo Logo"></a>
+        <nav class="nav-vis-desktop col-sm-10 navbar navbar-expand-lg bg-body shadow-lg">
+          <div class="row">
+            <div class="d-flex justify-content-start">
+              <div class="w-50">
+                <form class="d-flex" role="search">
+                  <img src="" alt="">
+                  <input class="form-control me-2" type="search" placeholder="Search games, hardware, news, etc" aria-label="Search">
+                </form>
+              </div>
+              <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">All categories</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">All categories</a></li>
+                  <li><a class="dropdown-item" href="#">Games</a></li>
+                  <li><a class="dropdown-item" href="#">Hardware</a></li>
+                  <li><a class="dropdown-item" href="#">Merchandise</a></li>
+                  <li><a class="dropdown-item" href="#">News & Events</a></li>
+                  <li><a class="dropdown-item" href="#">Support</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="d-flex justify-content-end">
+                  <a href="https://en-americas-support.nintendo.com/"><button class="btn laptop-btn"><img src="assets/img/nav-support.png" alt="Support">Support</button></a>
+                  <a href="https://accounts.nintendo.com/authorize_guide?type=mixed&redirect_uri=https%3A%2F%2Faccounts.nintendo.com%2Fconnect%2F1.0.0%2Fauthorize%3Fclient_id%3D01fe027acd6bc0cf%26display%3Dtouch%26interacted%3D1%26prompt%3Dconsent%26redirect_uri%3Dhttps%253A%252F%252Fwww.nintendo.com%26response_mode%3Dweb_message%26response_type%3Dcode%2Bid_token%2Btoken%26scope%3DeshopDemo%2BeshopDevice%2BeshopPrice%2BfamilyMember%2BmissionStatus%2BmissionStatus%253Aprogress%2Bopenid%2BparentalControlSetting%2BpointTransaction%2BpointWallet%2Buser%2Buser.birthday%2Buser.email%2Buser.membership%2Buser.mii%2Buser.wishlist%26state%3D8477f1e61673e4e384983fd24b8bf58f%26web_message_target%3Dop-frame%26web_message_uri%3Dhttps%253A%252F%252Faccounts.nintendo.com"><button class="btn laptop-btn"><img src="assets/img/nav-wish-list-sm.png" alt="Small Wish List">Wish List</button></a>
+                  <a href="https://www.nintendo.com/cart/"><button class="btn laptop-btn"><img src="assets/img/nav-shopping-sm.png" alt="Small Cart">Cart</button></a>
+                  <a href="https://accounts.nintendo.com/authorize_guide?type=mixed&redirect_uri=https%3A%2F%2Faccounts.nintendo.com%2Fconnect%2F1.0.0%2Fauthorize%3Fclient_id%3D01fe027acd6bc0cf%26display%3Dtouch%26interacted%3D1%26prompt%3Dconsent%26redirect_uri%3Dhttps%253A%252F%252Fwww.nintendo.com%26response_mode%3Dweb_message%26response_type%3Dcode%2Bid_token%2Btoken%26scope%3DeshopDemo%2BeshopDevice%2BeshopPrice%2BfamilyMember%2BmissionStatus%2BmissionStatus%253Aprogress%2Bopenid%2BparentalControlSetting%2BpointTransaction%2BpointWallet%2Buser%2Buser.birthday%2Buser.email%2Buser.membership%2Buser.mii%2Buser.wishlist%26state%3D4def5774ecf53dca933a39aae91b6960%26web_message_target%3Dop-frame%26web_message_uri%3Dhttps%253A%252F%252Faccounts.nintendo.com"><button class="btn laptop-btn"><img src="assets/img/nav-profile-sm.png" alt="Small Profile">Log in / Sign up</button></a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!--poster game-->
+    <div>
+        <div class="gradient-bg">
+            <div class="text-center">
+                <img class="img-fluid mx-auto" src="assets/img/poster-metroid.png" alt="Metroid Featured Game">
+            </div>
+        </div>
+        <div class="row p-2">
+                <div class="col-sm-6 text-center float-start">
+                  <h2>Metroid Prime<sup>TM</sup> Remastered</h2>
+                </div>
+                <div class="col-sm-2 text-center">
+                  <a href="https://www.nintendo.com/store/products/metroid-prime-remastered-switch/"><button class="btn btn-primary">Available Now</button></a>
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-3 text-center float-end">
+                  <img src="assets/img/esrb-t.png">
+                </div>
+        </div>
+    </div>
+    <hr>
+
+    <!--featrued games-->
+    <h3 class="p-2">Featured</h3>
+    <div id="carousel-featured" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="https://www.zelda.com/tears-of-the-kingdom/"><img class="d-block w-100 darken-icon" src="assets/img/feature-zelda.png" alt="First feature"></a>
+            <h4 class="p-2">Pre-order now</h4>
+          </div>
+          <div class="carousel-item">
+            <a href="https://www.nintendo.com/store/products/kirbys-return-to-dream-land-deluxe-switch/"><img class="d-block w-100 darken-icon" src="assets/img/feature-kirby.png" alt="Second feature"></a>
+            <h4 class="p-2">Kirby's Return to Dreamland<sup>TM</sup> Deluxe</h4>
+          </div>
+          <div class="carousel-item">
+            <a href="https://www.nintendo.com/store/products/bayonetta-origins-cereza-and-the-lost-demon-switch/"><img class="d-block w-100 darken-icon" src="assets/img/feature-bayonetta.png" alt="Third feature"></a>
+            <h4 class="p-2">Bayonetta Origins: Cereza and the Lost Demon<sup>TM</sup></h4>
+          </div>
+          <div class="carousel-item">
+            <a href="https://www.nintendo.com/store/products/advance-wars-1-plus-2-re-boot-camp-switch/"><img class="d-block w-100 darken-icon" src="assets/img/feature-aw.png" alt="Fourth feature"></a>
+            <h4 class="p-2">Advance Wars<sup>TM</sup> 1+2: Re-Boot Camp</h4>
+          </div>
+          <div class="carousel-item">
+            <a href="https://www.nintendo.com/store/products/pikmin-4-switch/"><img class="d-block w-100 darken-icon" src="assets/img/feature-pikmin.png" alt="Fifth feature"></a>
+            <h4 class="p-2">Pikmin 4</h4>
+          </div>
+        </div>
+      </div>
+
+    <hr>
+
+    <!--online store-->
+    <h3 class="p-2">Online store</h3>
+    <img class="img-fluid" src="assets/img/store.png" alt="Store Image">
+    <h4 class="p-2">Shop games, exclusive Nintendo merchandise, and more! Plus, get free shipping on orders $50 and over.</h4>
+    <div class="d-grid text-center gap-2 col-6 mx-auto">
+      <a href="https://www.nintendo.com/store/"><button class="btn btn-primary" type="button">Start shopping</button></a>
+    </div>
+    <hr>
+
+    <!--gaming systems-->
+    <h3 class="p-2">Gaming systems</h3>
+    <div class="text-center">
+      <img class="img-fluid" src="assets/img/systems.png" alt="Store Image">
+    </div>
+    <h4 class="p-2">Find the perfect Nintendo Switch system for you.</h4>
+    <div class="d-grid text-center gap-2 col-6 mx-auto">
+      <a href="https://www.nintendo.com/switch/"><button class="btn btn-primary" type="button">Explore now</button></a>
+    </div>
+    <hr>
+
+    <!--news-->
+    <h3 class="p-2">News</h3>
+
+    <!--featured articles-->
+    <div class="row">
+      <div class="col-sm-6">
+        <a href="https://www.nintendo.com/whatsnew/take-a-swing-at-mlb-the-show-23-with-the-tech-test/"><img class="img-fluid rounded darken-icon" src="assets/img/news-mlbtech.png" alt="MLB Tech Test"></a>
+        <div class="p-2">
+          <p>02/15/23</p>
+          <h4 class="headline">Take a swing at MLB The Show 23 with the Tech Test</h4>
+          <p>It's a lovely weekend for a ball game, wouldn't you say? From Feb. 15 at 10 a.m. PT to Feb. 21 at 6:00 p.m. PT, baseball fans...</p>
+          <a href="https://www.nintendo.com/whatsnew/take-a-swing-at-mlb-the-show-23-with-the-tech-test/"><p class="read-more"><b><u>Read more</u></b></p></a> 
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <a href="https://www.nintendo.com/whatsnew/available-now-set-out-on-an-emotional-co-op-journey-in-blanc/"><img class="img-fluid rounded darken-icon" src="assets/img/news-blanc.png" alt="Blanc News"></a>
+        <div class="p-2">
+          <p>02/14/23</p>
+          <h4 class="headline">Available now! Set out on an emotional, co-op journey in Blanc</h4>
+          <p>Blanc is a stylized (and adorable) cooperative adventure designed for both local<sup>*</sup> or online<sup>**</sup> co-op. You and a friend w...</p>
+          <a href="https://www.nintendo.com/whatsnew/available-now-set-out-on-an-emotional-co-op-journey-in-blanc/"><p class="read-more"><b><u>Read more</u></b></p></a>
+        </div>
+      </div>
+    </div>
+
+    <!--other articles-->
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="p-2">
+          <a href="https://www.nintendo.com/whatsnew/pass-a-controller-and-gear-up-for-these-couch-co-op-games-2023/"><img class="img-fluid rounded darken-icon" src="assets/img/news-coop.png" alt="Co-Op Article"></a>
+          <p>02/14/23</p>
+          <h4 class="headline">Pass a controller and gear up for these couch co-op games!</h4>
+          <a href="https://www.nintendo.com/whatsnew/pass-a-controller-and-gear-up-for-these-couch-co-op-games-2023/"><p class="read-more"><b><u>Read more</u></b></p></a>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="p-2">
+          <a href="https://www.nintendo.com/whatsnew/get-ready-for-the-legend-of-zelda-tears-of-the-kingdom/"><img class="img-fluid rounded darken-icon" src="assets/img/news-zelda.png" alt="Zelda Article"></a>
+          <p>02/10/23</p>
+          <h4 class="headline">Get ready for The Legend of Zelda: Tears of the Kingdom</h4>
+          <a href="https://www.nintendo.com/whatsnew/get-ready-for-the-legend-of-zelda-tears-of-the-kingdom/"><p class="read-more"><b><u>Read more</u></b></p></a>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="p-2">
+          <a href="https://www.nintendo.com/whatsnew/check-out-whats-coming-in-overwatch-2-season-3/"><img class="img-fluid rounded darken-icon" src="assets/img/news-overwatch.png" alt="Overwatch Article"></a>
+          <p>02/10/23</p>
+          <h4 class="headline">Check out what's coming in Overwatch 2 Season 3</h4>
+          <a href="https://www.nintendo.com/whatsnew/check-out-whats-coming-in-overwatch-2-season-3/"><p class="read-more"><b><u>Read more</u></b></p></a>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="p-2">
+          <a href="https://www.nintendo.com/whatsnew/mobilenews-discover-the-all-new-course-piranha-plant-cove-with-the-exploration-tour/"><img class="img-fluid rounded darken-icon" src="assets/img/news-mktour.png" alt="Mariokart Article"></a>
+          <p>02/09/23</p>
+          <h4 class="headline">Discover the all-new course Piranha Plant Cove with the Exploration Tour</h4>
+          <a href="https://www.nintendo.com/whatsnew/mobilenews-discover-the-all-new-course-piranha-plant-cove-with-the-exploration-tour/"><p class="read-more"><b><u>Read more</u></b></p></a>
+        </div>
+      </div>
+    </div>
+    <div class="d-grid text-center gap-2 col-6 mx-auto">
+      <a href="https://www.nintendo.com/whatsnew/"><button class="btn btn-primary" type="button"><img src="assets/img/news-icon.png" alt="News Icon">See all news articles</button></a>
+    </div>
+    <hr>
+
+    <!--characters-->
+    <h3 class="p-2">Characters</h3>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="row">
+          <div class="col-sm-6 p-2 darken-icon">
+            <a href="https://mario.nintendo.com/"><img class="img-fluid mario-bg rounded" src="assets/img/character-mario.png" alt="Super Mario Character"></a>
+            <h4 class="p-2">Super Mario<sup>TM</sup></h4>
+          </div>
+          <div class="col-sm-6 p-2 darken-icon">
+              <a href="https://zelda.com/"><img class="img-fluid zelda-bg rounded" src="assets/img/character-zelda.png" alt="Zelda Character"></a>
+              <h4 class="p-2">The Legend of Zelda<sup>TM</sup></h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="row">
+          <div class="col-sm-6 p-2 darken-icon">
+            <a href="https://splatoon.nintendo.com/"><img class="img-fluid splatoon-bg rounded" src="assets/img/character-splatoon.png" alt="Splatoon Character"></a>
+            <h4 class="p-2">Splatoon<sup>TM</sup></h4>
+          </div>
+          <div class="col-sm-6 p-2 darken-icon">
+              <a href="https://kirby.nintendo.com/"><img class="img-fluid kirby-bg rounded" src="assets/img/character-kirby.png" alt="Kirby Character"></a>
+              <h4 class="p-2">Kirby<sup>TM</sup></h4>
+          </div>
+        </div>
+      </div>
+    </div>    
+    <hr>
+
+    <!--digital best sellers-->
+    <h3 class="p-2">Digital best sellers</h3>
+    <div id="carousel-sellers" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="https://www.nintendo.com/store/products/fire-emblem-engage-switch/"><img class="d-block w-100 darken-icon" src="assets/img/sellers-fee.png" alt="First seller"></a>
+            <h4 class="p-2">Fire Emblem<sup>TM</sup> Engage</h4>
+          </div>
+          <div class="carousel-item">
+            <a href="https://www.nintendo.com/store/products/minecraft-switch/"><img class="d-block w-100 darken-icon" src="assets/img/sellers-minecraft.png" alt="Second seller"></a>
+            <h4 class="p-2">Minecraft</h4>
+          </div>
+          <div class="carousel-item">
+            <a href="https://www.nintendo.com/store/products/persona-4-golden-switch/"><img class="d-block w-100 darken-icon" src="assets/img/sellers-p4.png" alt="Third seller"></a>
+            <h4 class="p-2">Persona 4 Golden</h4>
+          </div>
+          <div class="carousel-item">
+            <a href="https://www.nintendo.com/store/products/persona-3-portable-switch/"><img class="d-block w-100 darken-icon" src="assets/img/sellers-p3.png" alt="Fourth seller"></a>
+            <h4 class="p-2">Persona 3 Portable</h4>
+          </div>
+          <div class="carousel-item">
+            <a href="https://www.nintendo.com/store/products/mario-kart-8-deluxe-switch/"><img class="d-block w-100 darken-icon" src="assets/img/sellers-mariokart.png" alt="Fifth seller"></a>
+            <h4 class="p-2">Mario Kart<sup>TM</sup> 8 Deluxe</h4>
+          </div>
+        </div>
+      </div>
+    <hr>
+
+    <!--digital new releases-->
+    <h3 class="p-2">Digital new releases</h3>
+    <div id="carousel-releases" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="https://www.nintendo.com/store/products/blanc-switch/"><img class="d-block w-100 darken-icon" src="assets/img/releases-blanc.png" alt="First release"></a>
+            <h4 class="p-2">Blanc</h4>
+          </div>
+          <div class="carousel-item">
+            <a href="https://www.nintendo.com/store/products/metroid-prime-remastered-switch/"><img class="d-block w-100 darken-icon" src="assets/img/releases-metroid.png" alt="Second release"></a>
+            <h4 class="p-2">Metroid Prime<sup>TM</sup> Remastered</h4>
+          </div>
+          <div class="carousel-item">
+            <a href="https://www.nintendo.com/store/products/spongebob-squarepants-the-cosmic-shake-switch/"><img class="d-block w-100 darken-icon" src="assets/img/releases-spongebob.png" alt="Third release"></a>
+            <h4 class="p-2">SpongeBob SquarePants: The Cosmic Shake</h4>
+          </div>
+          <div class="carousel-item">
+            <a href="https://www.nintendo.com/store/products/powerwash-simulator-switch/"><img class="d-block w-100 darken-icon" src="assets/img/releases-pws.png" alt="Fourth release"></a>
+            <h4 class="p-2">PowerWash Simulator</h4>
+          </div>
+          <div class="carousel-item">
+            <a href="https://www.nintendo.com/store/products/oddballers-switch/"><img class="d-block w-100 darken-icon" src="assets/img/releases-ballers.png" alt="Fifth release"></a>
+            <h4 class="p-2">OddBallers<sup>TM</sup></h4>
+          </div>
+        </div>
+      </div>
+
+    <!--footer-->
+    <footer class="w-100">
+      <div class="row ninred-bg">
+        <div class="col-sm-6 text-center float-start">
+          <img class="" src="assets/img/logo-large.png" alt="Large Logo">
+        </div>
+        <div class="col-sm-6 text-center float-end">
+          <img class="" src="assets/img/logo-socials.png" alt="Social Media">
+        </div>
+      </div>
+      <div class="container-fluid bottom-bg text-center">
+        <p class="white-text">© Nintendo. Games are property of their respective owners. Nintendo of America Inc. Headquarters are in Redmond, Washington, USA</p>
+      </div>
+    </footer>
+
+    <!--mobile nav bar-->
+    <div class="container nav-vis-mobile fixed-bottom">
+        <nav class="navbar navbar-expand-lg bg-transparent p-5">
+            <div class="flex-nowrap center-nav">
+                <div class="row shadow-lg shape-up">
+                  <div class="col-sm-2 nav-edge-left"></div>
+                  <div class=" col-sm-8 nav-shape container bg-body">
+                    <div class="flex-nowrap d-flex justify-content-evenly">
+                        <div>
+                            <button class="btn"><img src="assets/img/nav-menu.png" alt="Menu"></button>
+                        </div>
+                        <div>
+                            <a href="https://accounts.nintendo.com/authorize_guide?redirect_uri=https%3A%2F%2Faccounts.nintendo.com%2Fconnect%2F1.0.0%2Fauthorize%3Fclient_id%3D01fe027acd6bc0cf%26display%3Dtouch%26interacted%3D1%26prompt%3Dconsent%26redirect_uri%3Dhttps%253A%252F%252Fwww.nintendo.com%26response_mode%3Dweb_message%26response_type%3Dcode%2Bid_token%2Btoken%26scope%3DeshopDemo%2BeshopDevice%2BeshopPrice%2BfamilyMember%2BmissionStatus%2BmissionStatus%253Aprogress%2Bopenid%2BparentalControlSetting%2BpointTransaction%2BpointWallet%2Buser%2Buser.birthday%2Buser.email%2Buser.membership%2Buser.mii%2Buser.wishlist%26state%3Dcf37b888cfe5abf0d9ebaf807b68c182%26web_message_target%3Dop-frame%26web_message_uri%3Dhttps%253A%252F%252Faccounts.nintendo.com&type=mixed"><button class="btn"><img src="assets/img/nav-wish-list.png" alt="Wish List"></button></a>
+                        </div>
+                        <div>
+                            <button class="btn"><img src="assets/img/nav-search.png" alt="Search"></button>
+                        </div>
+                        <div>
+                            <a href="https://www.nintendo.com/cart/"><button class="btn"><img src="assets/img/nav-shopping.png" alt="Shopping"></button></a>
+                        </div>
+                        <div>
+                            <a href="https://accounts.nintendo.com/authorize_guide?redirect_uri=https%3A%2F%2Faccounts.nintendo.com%2Fconnect%2F1.0.0%2Fauthorize%3Fclient_id%3D01fe027acd6bc0cf%26display%3Dtouch%26interacted%3D1%26prompt%3Dconsent%26redirect_uri%3Dhttps%253A%252F%252Fwww.nintendo.com%26response_mode%3Dweb_message%26response_type%3Dcode%2Bid_token%2Btoken%26scope%3DeshopDemo%2BeshopDevice%2BeshopPrice%2BfamilyMember%2BmissionStatus%2BmissionStatus%253Aprogress%2Bopenid%2BparentalControlSetting%2BpointTransaction%2BpointWallet%2Buser%2Buser.birthday%2Buser.email%2Buser.membership%2Buser.mii%2Buser.wishlist%26state%3Dd7244b755ca8900d60c5dd290ef4ce04%26web_message_target%3Dop-frame%26web_message_uri%3Dhttps%253A%252F%252Faccounts.nintendo.com&type=mixed"><button class="btn"><img src="assets/img/nav-profile.png" alt="Profile"></button></a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-2 nav-edge-right"></div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

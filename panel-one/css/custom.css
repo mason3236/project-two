@@ -1,0 +1,138 @@
+/*nintendo red = #e70014*/
+
+body {
+    font-family: "Raleway", sans-serif;
+    background-color: #fdfefd;
+    padding-top: 50px;
+}
+
+.darken-icon:hover {
+    filter: brightness(75%)
+}
+
+/*colors*/
+.red-test {
+    background-color: rgb(255, 83, 83);
+}
+
+.blue-test {
+    background-color: rgb(74, 110, 255);
+}
+
+.ninred-bg {
+    background-color: #e70014;
+}
+
+.bottom-bg {
+    background-color: #232323;
+}
+
+.white-text {
+    color:white;
+}
+
+.btn-primary {
+    background-color: #e70014;
+    border-color: #e70014;
+    --bs-btn-hover-bg: #ac010e;
+    --bs-btn-hover-border-color: #ac010e;
+    --bs-btn-active-bg: #ac010e;
+    --bs-btn-active-border-color: #ac010e;
+}
+
+/*header and logo*/
+.logo {
+    margin: 0;
+}
+
+/*featured game*/
+.gradient-bg {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(170,221,212,1) 50%, rgba(59,183,162,1) 86%);
+}
+
+/*news*/
+/*can I group all of these to happen at once in one div??*/
+.headline:hover {
+    color: #e60013;
+}
+
+.read-more {
+    color: #e60013;
+}
+
+.read-more:hover {
+    color: #ac000e;
+}
+
+/*characters*/
+.mario-bg {
+    background-image: url(../assets/img/character-mario-bg.png);
+}
+
+.zelda-bg {
+    background-image: url(../assets/img/character-zelda-bg.png);
+}
+
+.splatoon-bg {
+    background-image: url(../assets/img/character-splatoon-bg.png);
+}
+
+.kirby-bg {
+    background-image: url(../assets/img/character-kirby-bg.png);
+}
+
+/*laptop nav bar visuals*/
+.laptop-btn {
+    font-size: small;
+}
+
+/*mobile nav bar visuals*/
+.center-nav {
+    margin: auto;
+}
+
+.shape-up {
+    width: fit-content;
+    height: fit-content;
+}
+
+.nav-shape {
+    width: 350px;
+    height: 60px;
+}
+
+.nav-edge-right {
+    width: 30px;
+    height: 60px;
+    border-radius: 0 12rem 12rem 0;
+    background-color: #fdfefd;
+}
+
+.nav-edge-left {
+    width: 30px;
+    height: 60px;
+    border-radius: 12rem 0 0 12rem;
+    background-color: #fdfefd;
+}
+
+/*nav bar visibility code*/
+.nav-vis-mobile {
+    display: none;
+}
+
+@media (max-width: 767.98px) {
+    .nav-vis-mobile {
+        display: block;
+    }
+}
+
+.nav-vis-desktop {
+    display: none;
+}
+
+@media (min-width: 767.98px) {
+    .nav-vis-desktop {
+        display: block;
+    }
+}

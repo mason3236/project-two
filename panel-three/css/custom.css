@@ -1,0 +1,168 @@
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+#topbar-line {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    height: 1px;
+}
+
+.btn-primary:active {
+    background-color: #ac000e;
+    border-color:#e70014
+}
+
+.btn-square:hover {
+    color: #ac000e;
+}
+
+.carousel-btn {
+    padding-bottom: 50px;
+}
+
+.div-description {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.bg-footer {
+    background-color: white;
+}
+
+.footer-title:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.footer-text {
+    color: black;
+}
+
+.footer-subtext {
+    color: #e70014 !important;
+}
+
+.footer-subtext:hover {
+    color: #ac000e !important;
+    text-decoration: underline;
+}
+
+.featlinks-title:hover {
+    color: #e70014;
+}
+
+.bottom-icon {
+    color: white;
+}
+
+.bottom-icon:hover {
+    color: white;
+}
+
+.bottom-icon:active {
+    color: white;
+}
+
+/*mobile nav bar visuals*/
+#mobile-nav {
+    background-color: transparent !important;
+}
+
+.center-nav {
+    margin: auto;
+}
+
+.shape-up {
+    width: fit-content;
+    height: fit-content;
+}
+
+.nav-shape {
+    width: 380px;
+    height: 60px;
+}
+
+.nav-edge-right {
+    width: 30px;
+    height: 60px;
+    border-radius: 0 12rem 12rem 0;
+    background-color: #fdfefd;
+}
+
+.nav-edge-left {
+    width: 30px;
+    height: 60px;
+    border-radius: 12rem 0 0 12rem;
+    background-color: #fdfefd;
+}
+
+.mobilenav-btn {
+    color: #484848;
+    position: relative;
+    top: 9px;
+}
+
+.mobilenav-btn:hover {
+    color: #484848;
+}
+
+.mobilenav-btn:active {
+    color: #484848;
+}
+
+.mobilenav-menu {
+    position: relative;
+    right: 20px;
+}
+
+.mobilenav-wish {
+    position: relative;
+    right: 15px;
+}
+
+.mobilenav-cart {
+    position: relative;
+    left: 15px;
+}
+
+.mobilenav-profile {
+    position: relative;
+    left: 20px;
+}
+
+.mobilenav-search {
+    background-color: #e70014;
+    border: none;
+    padding: 13px;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    bottom: 5px;
+}
+
+/*nav bar visibility code*/
+.nav-vis-mobile {
+    display: none;
+}
+
+@media (max-width: 991.98px) {
+    .nav-vis-mobile {
+        display: block;
+    }
+    .navbar {
+        background-color: #e70014 !important;
+    }
+}
+
+.nav-vis-desktop {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .nav-vis-desktop {
+        display: block;
+    }
+}
